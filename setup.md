@@ -23,19 +23,19 @@ int main(){
 
 ### Setting up path to the folder:-
 
-### Windows
+#### Windows
 
 ```powershell
 cd C:\Users\YourName\Desktop\git_folder
 ```
 
-### Mac
+#### Mac
 
 ```zsh
 cd ~/Desktop/git_folder
 ```
 
-### Linux
+#### Linux
 
 ```bash
 cd ~/Desktop/git_folder
@@ -73,6 +73,24 @@ cd ~/Desktop/git_folder
 
     nothing added to commit but untracked files present (use "git add" to track)
    ```
+4) To add a file with extension ext for tracking changes, we can use the following command :-
+   <br>
+   ```powershell
+   git add file.ext
+   ```
+   
+   <br>
 
+   To add a folder, git add will track all files and subfolders of the given folder :-
+   
+   ```powershell
+   git add dir1
+   ```
+    To add all files of a folder, the following command is used :-
+
+   ```powershell
+   git add .
+   ```
+   
 
 
