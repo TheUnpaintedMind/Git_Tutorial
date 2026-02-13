@@ -22,15 +22,22 @@ int main(){
 
 
 ### Setting up path to the folder:-
-**For Windows:-**
+
+### Windows
+
 ```powershell
-cd Users\Desktop\git_folder
+cd C:\Users\YourName\Desktop\git_folder
 ```
-**For Mac:-**
+
+### Mac
+
 ```zsh
 cd ~/Desktop/git_folder
 ```
-**For Linux:-**
+
+### Linux
+
 ```bash
-cd /home/users/desktop/git_folder
+cd ~/Desktop/git_folder
 ```
+
