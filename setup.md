@@ -1,3 +1,5 @@
+<<[Previous Chapter(Install Git)](git_install.md) &emsp;[Next Chapter(Visualise Git)](visual.md)>>
+<br>
 # Git Setup
 *It is important to create two files say file1 & file2 of any language(can even be text files) which can be said to be version 1 and version 2 respectively. Create and store these files inside a folder say "git_folder"*
 
