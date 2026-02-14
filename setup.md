@@ -128,4 +128,6 @@ cd ~/Desktop/git_folder
     * Subject line: Limit to 50 characters or less. The subject should be a short, concise summary of the change, written     in the imperative mood (e.g., "Fix bug", not "Fixed bug").
     * Body text: The body should be separated from the subject by a single blank line and each line in the body should be     wrapped at 72 characters. This convention improves readability in various command-line tools and interfaces.
     * Overall length: The body can span multiple paragraphs or use bullet points to provide as much detail as necessary,as long as lines are wrapped appropriately. 
+<br>
+
 
