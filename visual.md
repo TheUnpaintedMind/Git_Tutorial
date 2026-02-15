@@ -80,7 +80,11 @@ git log --all
 <img width="511" height="235" alt="image" src="https://github.com/user-attachments/assets/25777c4a-369e-4225-b261-67557639a8c7" />
 
 <br>
+<br>
+
 Suppose we want to see version 2 of this file, in order to do so, we need the commit hash of that version, so we use
+
+<br>
 <br>
 
 <img width="517" height="249" alt="image" src="https://github.com/user-attachments/assets/2c123aee-6c9c-4411-acf1-6e88a6e26d76" />
@@ -89,7 +93,53 @@ Suppose we want to see version 2 of this file, in order to do so, we need the co
 
 <img width="516" height="288" alt="image" src="https://github.com/user-attachments/assets/62b6a450-9c2c-41db-8f94-204eaff9e496" />
 
+<br>
+
+**After using git log, press q to exit and keep typing normally inside the terminal**
+
 <br> 
 From above, we can see that we are in the detached head state, Head is basically a pointer to the most recent commit in the commit history, since we are currently in the second version of our file our Head is still pointing to version 2 but our master branch (which is the name of the default branch) master being a movable pointer points to most recent version of our file irrespective of the position of head.
+
+### Adding a commit before the master branch
+Now suppose we checked out to a commit preceding the master branch and made a commit ?
+
+<img width="1106" height="649" alt="image" src="https://github.com/user-attachments/assets/225bf951-25e8-4d82-9586-868e45caddb0" />
+
+<br><br>
+Now if one wants to make a commit , since the history of the master branch did not have this commit ,hence this commit will be branched off. This occurs because Git can't have "version 1 updated" and "version 2" both in the same position inside master branch's history. Hence as a result, a different branch is created.
+
+Now to return back to the master branch, we use the following command 
+```powershell
+git checkout master
+```
+
+<img width="520" height="318" alt="image" src="https://github.com/user-attachments/assets/492cf49e-c49e-405e-a2f2-d077c01a403b" />
+
+<br><br>
+
+Using git log again, we don't see our updated version 1 commit since it wasn't a part of our master branch's history, git still stores it in memory.
+
+<img width="504" height="246" alt="image" src="https://github.com/user-attachments/assets/b5795d19-19d0-4570-8cfa-51e00c3ed409" />
+
+### Restore the previous version of a file similar to google docs
+
+Now instead of actually checkout out to a previous commit, we can restore the contents of a file to that version by using the following command 
+
+```powershell
+git checkout <commithash> filename.ext
+```
+
+<img width="527" height="311" alt="image" src="https://github.com/user-attachments/assets/5736423f-ddfe-4487-a1ec-c98cec16088a" />
+
+<br>
+If we don't want those changes , then we can simply unstage it and then remove it from the working area
+
+```powershell
+git reset filename.ext
+git checkout -- filename.ext
+```
+
+
+  
 
 
