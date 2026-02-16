@@ -1,4 +1,4 @@
-<<[Previous Chapter(Setup Git)](visual.md) &emsp;[Next Chapter(GitHub)](github.md)>>
+<<[Previous Chapter(Visualise Git)](visual.md) &emsp;[Next Chapter(GitHub)](github.md)>>
 
 # Replicate Google Docs feature
 *Suppose we checkout to an earlier commit, make changes to it and want our new commit to be on top of the master commit,
