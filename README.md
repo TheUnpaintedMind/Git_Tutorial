@@ -21,5 +21,8 @@ and flexibility.
 ## Contents :-
 
 1. [Git  Installation](git_install.md)
-2. [Project Setup](setup.md) 
+2. [Project Setup](setup.md)
+3. [Visualise Git](visual.md)
+4. [Miscellaneous Git Features](extra.md)
+5. [Getting started with GitHub](github.md)
 
