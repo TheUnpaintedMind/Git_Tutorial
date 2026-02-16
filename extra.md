@@ -109,5 +109,5 @@ Remove-Item -Path .git, .gitignore -Recurse -Force
 ```bash
 rm -rf .git .gitignore
 ```
-
+<<[Previous Chapter(Visualise Git)](visual.md) &emsp;[Next Chapter(GitHub)](github.md)>>
 
