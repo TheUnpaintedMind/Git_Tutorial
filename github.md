@@ -229,7 +229,23 @@ So if git push didn't authenticate us , there are several ways to fix this issue
 ```
 git push origin <branch_name>
 ```
-
+### GitHub Features 
+* Now we have authenticated ourselves to GitHub and added the remote repo to our folder, to add any changes that we made, following command can be used
+  ```
+  git add .
+  git commit -m <commit_message>
+  git push origin <branch_name>
+  ```
+  After we make commit, our git log looks like this
+  ```
+   *   4be4895 (origin/main, origin/HEAD) Merge branch 'master' of https://github.com/TheUnpaintedMind/Git_Tutorial
+   |\  
+   | * c3a8b3a commit
+   | * a6c633a added repo
+     * 9ac3041 Update github.md
+  ```
+* Instead of repeatedly typing git push origin master , we 
+  
 
 
       
